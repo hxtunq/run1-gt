@@ -44,8 +44,8 @@ export KNOWN_SNPS="${REF_DIR}/1000G_phase1.snps.high_confidence.hg38.${CHR_TO_US
 #-------------------------------------------------------------------------------
 # SIMULATION PARAMETERS (simutator + ART)
 #-------------------------------------------------------------------------------
-# Simutator: SNP mỗi 500bp, deletion 3bp mỗi 2000bp, insertion 2bp mỗi 2000bp
-export SNP_DIST=500
+# SNP_DIST=7000 -> ~7,000 SNPs on chr22 (~50Mb)
+export SNP_DIST=7000
 export DEL_DIST=2000
 export DEL_LEN=3
 export INS_DIST=2000
